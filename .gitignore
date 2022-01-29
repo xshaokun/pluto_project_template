@@ -1,0 +1,20 @@
+
+# Compile & execute files
+makefile
+pluto
+job.s
+
+# Object files
+*.o
+
+# Outputs
+*.out
+*.flt
+*.dbl
+*.vtk
+*.tab
+*.dbl.h5
+*.flt.h5
+
+
+
