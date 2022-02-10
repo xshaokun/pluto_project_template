@@ -2,9 +2,8 @@
 # Compile & execute files
 makefile
 sysconf.out
-pluto
 job.s
-runs/definitions.h
+code/pluto
 runs/pluto.ini
 
 # Object files
