@@ -9,12 +9,17 @@ job.s
 
 # Outputs
 *.out
+*.err
 *.flt
 *.dbl
 *.vtk
 *.tab
 *.dbl.h5
 *.flt.h5
+
+# Misc caches
+.ipynb_checkpoints
+.vscode
 
 
 
