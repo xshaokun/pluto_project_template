@@ -1,14 +1,18 @@
 
 # Compile & execute files
 makefile
+sysconf.out
 pluto
 job.s
+runs/definitions.h
+runs/pluto.ini
 
 # Object files
 *.o
 
 # Outputs
-*.out
+hist.out
+grid.out
 *.err
 *.flt
 *.dbl
@@ -16,6 +20,10 @@ job.s
 *.tab
 *.dbl.h5
 *.flt.h5
+
+# figures
+*.png
+*.jpg
 
 # Misc caches
 .ipynb_checkpoints
