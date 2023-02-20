@@ -3,15 +3,14 @@
 makefile
 sysconf.out
 job.s
-code/pluto
-runs/pluto.ini
+pluto
+!runs/**/pluto
 
 # Object files
 *.o
 
 # Outputs
-hist.out
-grid.out
+*.out
 *.err
 *.flt
 *.dbl
@@ -19,6 +18,11 @@ grid.out
 *.tab
 *.dbl.h5
 *.flt.h5
+!flt.out
+!dbl.out
+!vtk.out
+!tab.out
+!restart.out
 
 # figures
 *.png
@@ -27,6 +31,3 @@ grid.out
 # Misc caches
 .ipynb_checkpoints
 .vscode
-
-
-
