@@ -1,10 +1,10 @@
 ci:
   autofix_commit_msg: |
-    ci[pre-commit.ci]: auto fixes from pre-commit.com hooks
+    chore[pre-commit.ci]: auto fixes from pre-commit.com hooks
 
     for more information, see https://pre-commit.ci
   autofix_prs: true
-  autoupdate_commit_msg: 'ci[pre-commit.ci]: pre-commit autoupdate'
+  autoupdate_commit_msg: 'chore[pre-commit.ci]: pre-commit autoupdate'
   autoupdate_schedule: monthly
 
 exclude: \.(out|log|h)$
