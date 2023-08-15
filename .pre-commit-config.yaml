@@ -5,7 +5,7 @@ ci:
     for more information, see https://pre-commit.ci
   autofix_prs: true
   autoupdate_commit_msg: 'chore[pre-commit.ci]: pre-commit autoupdate'
-  autoupdate_schedule: monthly
+  autoupdate_schedule: quarterly
 
 exclude: \.(out|log|h)$
 
@@ -22,23 +22,23 @@ repos:
   - id: check-toml
 
 - repo: https://github.com/psf/black
-  rev: 23.3.0
+  rev: 23.7.0
   hooks:
   - id: black
 
-- repo: https://github.com/charliermarsh/ruff-pre-commit
-  rev: v0.0.270
+- repo: https://github.com/astral-sh/ruff-pre-commit
+  rev: v0.0.282
   hooks:
   - id: ruff
     args: [--fix]
 
 - repo: https://github.com/macisamuele/language-formatters-pre-commit-hooks
-  rev: v2.9.0
+  rev: v2.10.0
   hooks:
   - id: pretty-format-yaml
     args: [--autofix, --indent, '2']
 
 - repo: https://github.com/pre-commit/mirrors-clang-format
-  rev: v16.0.4
+  rev: v16.0.6
   hooks:
   - id: clang-format
